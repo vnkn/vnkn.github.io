@@ -10,7 +10,7 @@ if (filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)):
 
       // Receiver email address (Change it to your Email ID)
 //  $to = 'webmaster@funkyjunkytechies.com';
-  $to = 'labudiu@gmail.com';
+  $to = 'krishnanwow@gmail.com';
 
       // prepare header
 $header = 'From: '. $_REQUEST['name'] . ' <'. $_REQUEST['email'] .'>'. "\r\n";
